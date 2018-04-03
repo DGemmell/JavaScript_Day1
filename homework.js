@@ -3,7 +3,7 @@
 // We call the function printName and have not passed any parameters in the brackets.
 // The return value will be the function printName then the argument
 // "My name is" then append which ever name, in this case Keith.
-// Im not very sure if the function is being declared or invoked.
+
 var name = 'Keith';
 
 var printName = function() {
@@ -41,7 +41,8 @@ var listAnimals = function() {
 
 listAnimals();
 
-// tbc
+// suspects include Jay Val Harvey and rick
+// Suspect three is Keith.
 var suspectOne = 'Jay';
 var suspectTwo = 'Val';
 var suspectThree = 'Keith';
@@ -94,15 +95,15 @@ console.log('the murderer is ', murderer);
 
 // my own
 
-// var myHouse = ['Chairs', 'TV', 'Kettle'];
-//
-// var listHouse = function() {
-//   myHouse = ['Bed', 'Shower', 'Lamp', 'Washing', 'Ironing'];
-//   for(var i=0;i>myHouse.length; i++){
-//     console.log(i + ": " + myHouse[i]);
-//   }
-// }
-// listHouse();
+var myHouse = ['Chairs', 'TV', 'Kettle'];
+
+var listHouse = function() {
+  myHouse = ['Bed', 'Shower', 'Lamp', 'Washing', 'Ironing'];
+  for(var i=0;i>myHouse.length; i++){
+    console.log(i + ": " + myHouse[i]);
+  }
+}
+listHouse();
 
 // or
 var houses = ["chairs","tv","kettle"];
